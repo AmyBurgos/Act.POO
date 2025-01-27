@@ -17,5 +17,13 @@ public class actividad3 {
             mayor = 0;
             System.out.println(arreglo2[i]);
         }
+        System.out.println("----------------------------------");
+        int con = 0;
+        for (int i = arreglo2.length -1; i > 0; i--) {
+            arreglo [con] = arreglo2 [i];
+            System.out.println(arreglo[con]);
+            con++;
+            
+        }
     }   
 }
